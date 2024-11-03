@@ -10,6 +10,7 @@ using Laboration_2_Melvin_Friberg;
         static List<Kund> users = new List<Kund>();//Skapar en lista med alla kunder som finns registrerade
         static void Main(string[] args)
         {
+        users.Add(new Kund("Knatte", "pw123"));
         
             while (true)
             {
